@@ -132,6 +132,12 @@ def get_md_list(dir_path):
     for i in dirs:
         if os.path.splitext(i)[1] == ".md":   
             md_list.append(os.path.join(dir_path, i))
+        else:
+            sub_dir_path = os.path.join(dir_path, i)
+            sub_dirs = os.listdir(sub_dir_path)
+            for j in sub_dirs:
+                if os.path.splitext(j)[1] == ".md":   
+                    md_list.append(os.path.join(sub_dirs, j))
     print(md_list)
     return md_list
 
