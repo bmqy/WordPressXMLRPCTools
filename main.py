@@ -51,10 +51,10 @@ def get_posts():
     posts = wp.call(GetPosts({'post_type': 'post', 'number': 1000000000}))
     post_link_id_list = []
     for post in posts:
-        print(post)
         post_link_id_list.append({
             "id": post.id,
             "link": post.link
+            "date": post.date
         })
     print(post_link_id_list)
     print(len(post_link_id_list))
