@@ -1,3 +1,4 @@
+# coding=utf-8
 from wordpress_xmlrpc import Client, WordPressPost
 from wordpress_xmlrpc.methods.posts import GetPosts, NewPost, EditPost
 from urllib.parse import urlparse
@@ -21,8 +22,6 @@ config_info = {}
 
 with open (config_file_txt, 'rb') as f:
     config_info = json.loads(f.read())
-
-
 username = config_info["USERNAME"]
 password = config_info["PASSWORD"]
 xmlrpc_php = config_info["XMLRPC_PHP"]
@@ -52,7 +51,7 @@ def get_posts():
     posts = wp.call(GetPosts({'post_type': 'post', 'number': 1000000000}))
     post_link_id_list = []
     for post in posts:
-        print(post.post_date +'-'+ post.title)
+        print(post)
         post_link_id_list.append({
             "id": post.id,
             "link": post.link
