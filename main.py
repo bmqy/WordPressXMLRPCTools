@@ -3,6 +3,7 @@ from wordpress_xmlrpc import Client, WordPressPost
 from wordpress_xmlrpc.methods.posts import GetPosts, NewPost, EditPost
 from urllib.parse import urlparse
 import frontmatter
+import datetime
 import time
 import os
 from hashlib import md5, sha1
@@ -54,7 +55,7 @@ def get_posts():
         post_link_id_list.append({
             "id": post.id,
             "link": post.link,
-            "date": post.date
+            "date": post.date.datetime.strftime('%Y%m')
         })
     print(post_link_id_list)
     print(len(post_link_id_list))
