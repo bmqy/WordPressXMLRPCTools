@@ -53,7 +53,7 @@ def get_posts():
     for post in posts:
         post_link_id_list.append({
             "id": post.id,
-            "link": post.link
+            "link": post.link,
             "date": post.date
         })
     print(post_link_id_list)
