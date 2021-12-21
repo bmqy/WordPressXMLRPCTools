@@ -55,7 +55,7 @@ def get_posts():
         post_link_id_list.append({
             "id": post.id,
             "link": post.link,
-            "date": time.strftime("%Y%m%d",post.date.datetime)
+            "date": datetime.strftime(post.date.datetime, "%Y%m%d")
         })
     print(post_link_id_list)
     print(len(post_link_id_list))
