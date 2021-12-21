@@ -51,15 +51,20 @@ def get_posts():
     print(time.strftime('%Y-%m-%d-%H-%M-%S')+"开始从服务器获取文章列表...")
     posts = wp.call(GetPosts({'post_type': 'post', 'number': 1000000000}))
     post_link_id_list = []
+    post_title_id_list = []
+    # for post in posts:
+    #     post_link_id_list.append({
+    #         "id": post.id,
+    #         "link": post.link,
+    #     })
     for post in posts:
-        post_link_id_list.append({
+        post_title_id_list.append({
             "id": post.id,
-            "link": post.link,
-            "date": post.date.strftime("%Y%m"),
+            "title": post.date.strftime("%Y%m") +'-'+ post.title,
         })
-    print(post_link_id_list)
-    print(len(post_link_id_list))
-    return post_link_id_list
+    print(post_title_id_list)
+    print(len(post_title_id_list))
+    return post_title_id_list
 
 # 创建post对象
 def create_post_obj(title, content, link, post_status, terms_names_post_tag, terms_names_category):
