@@ -202,6 +202,12 @@ def post_link_id_list_2_link_id_dic(post_link_id_list):
         link_id_dic[post["link"]] = post["id"]
     return link_id_dic
 
+def post_title_id_list_2_title_id_dic(post_title_id_list):
+    title_id_dic = {}
+    for post in post_title_id_list:
+        title_id_dic[post["title"]] = post["id"]
+    return title_id_dic
+
 
 def href_info(link):
     return "<br/><br/><br/>\n\n\n\n## 本文永久更新地址: \n[" + link + "](" + link + ")"
@@ -239,10 +245,10 @@ def insert_index_info_in_readme():
 
 def main():
     # 1. 获取网站数据库中已有的文章列表
-    post_link_id_list = get_posts()
-    print(post_link_id_list)
-    link_id_dic = post_link_id_list_2_link_id_dic(post_link_id_list)
-    print(link_id_dic)
+    post_title_id_list = get_posts()
+    print(post_title_id_list)
+    title_id_dic = post_title_id_list_2_title_id_dic(post_title_id_list)
+    print(title_id_dic)
     # 2. 获取md_sha1_dic
     # 查看目录下是否存在md_sha1.txt,如果存在则读取内容；
     # 如果不存在则创建md_sha1.txt,内容初始化为{}，并读取其中的内容；
