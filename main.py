@@ -282,7 +282,7 @@ def main():
         # 如果sha1与md_sha1_dic中记录的不同，则开始同步
         else:
             # 读取md文件信息
-            (content, metadata) = read_md(md)
+            (content, metadata, path_title) = read_md(md)
             # 获取title
     #         title = metadata.get("title", "")
     #         terms_names_post_tag = metadata.get("tags",  domain_name)
