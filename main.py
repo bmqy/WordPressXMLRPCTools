@@ -127,8 +127,8 @@ def read_md(file_path):
         post = frontmatter.load(f)
         content = post.content
         metadata = post.metadata
-        print("==>>", post.content)
-        print("===>>", post.metadata)
+        # print("==>>", post.content)
+        # print("===>>", post.metadata)
     return (content, metadata)
 
 # 从md文件路径中获取文件名
@@ -140,7 +140,7 @@ def get_md_path_title(path):
     file = os.path.splitext(file)[0]
     folder = pathArr[length - 2]
     md_path_title = folder +'-'+ file
-    # print(md_path_title)
+    print(md_path_title)
     return md_path_title
 
 # 获取特定目录的markdown文件列表
