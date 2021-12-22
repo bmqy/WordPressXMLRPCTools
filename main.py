@@ -133,7 +133,7 @@ def read_md(file_path):
 
 # 从md文件路径中获取文件名
 def get_md_path_title(file_path):
-    pathArr = file_path.split()
+    pathArr = file_path.split('/')
     length = len(pathArr);
     file = pathArr[length - 1]
     folder = pathArr[length - 2]
