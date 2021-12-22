@@ -127,10 +127,9 @@ def read_md(file_path):
         post = frontmatter.load(f)
         content = post.content
         metadata = post.metadata
-        pathTitle = path_title
         # print("==>>", post.content)
         # print("===>>", post.metadata)
-    return (content, metadata)
+    return (content, metadata, path_title)
 
 # 从md文件路径中获取文件名
 def get_md_path_title(path):
@@ -234,8 +233,8 @@ def insert_index_info_in_readme(title_id_dic):
     md_list.sort(reverse=True)
     # 读取md_list中的文件标题
     for md in md_list:
-        (content, metadata, pathTitle) = read_md(md)
-        id = title_id_dic[pathTitle]
+        (content, metadata, path_title) = read_md(md)
+        id = title_id_dic[path_title]
         title = metadata.get("title", "")
         insert_info = insert_info + "[" + title +"](" + "https://"+domain_name + "/" + id +"html" + ")\n\n"
     # 替换 ---start--- 到 ---end--- 之间的内容
