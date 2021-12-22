@@ -123,6 +123,7 @@ def edit_post(id, title, content, link, post_status, terms_names_post_tag, terms
 def read_md(file_path):
     content = ""
     metadata = {}
+    print(file_path)
     with open(file_path) as f:
         post = frontmatter.load(f)
         content = post.content
