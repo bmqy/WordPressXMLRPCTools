@@ -260,18 +260,18 @@ def main():
     # 读取_posts目录中的md文件列表
     # md_list = get_md_list(os.path.join(os.getcwd(), "_posts"))
 
-    # for md in md_list:
-    #     # 计算md文件的sha1值，并与md_sha1_dic做对比
-    #     sha1_key =  os.path.basename(md)
-    #     sha1_value = get_sha1(md)
-    #     # 如果sha1与md_sha1_dic中记录的相同，则打印：XX文件无需同步;
-    #     if((sha1_key in md_sha1_dic.keys()) and (sha1_value == md_sha1_dic[sha1_key])):
-    #         print(md+"无需同步")
-    #     # 如果sha1与md_sha1_dic中记录的不同，则开始同步
-    #     else:
-    #         # 读取md文件信息
-    #         (content, metadata) = read_md(md)
-    #         # 获取title
+    for md in md_list:
+        # 计算md文件的sha1值，并与md_sha1_dic做对比
+        sha1_key =  os.path.basename(md)
+        sha1_value = get_sha1(md)
+        # 如果sha1与md_sha1_dic中记录的相同，则打印：XX文件无需同步;
+        if((sha1_key in md_sha1_dic.keys()) and (sha1_value == md_sha1_dic[sha1_key])):
+            print(md+"无需同步")
+        # 如果sha1与md_sha1_dic中记录的不同，则开始同步
+        else:
+            # 读取md文件信息
+            (content, metadata) = read_md(md)
+            # 获取title
     #         title = metadata.get("title", "")
     #         terms_names_post_tag = metadata.get("tags",  domain_name)
     #         terms_names_category = metadata.get("categories", domain_name)
