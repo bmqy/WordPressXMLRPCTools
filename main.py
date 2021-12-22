@@ -275,6 +275,7 @@ def main():
         # 计算md文件的sha1值，并与md_sha1_dic做对比
         sha1_key =  os.path.basename(md)
         sha1_value = get_sha1(md)
+        read_md(md)
         # 如果sha1与md_sha1_dic中记录的相同，则打印：XX文件无需同步;
         if((sha1_key in md_sha1_dic.keys()) and (sha1_value == md_sha1_dic[sha1_key])):
             print(md+"无需同步")
