@@ -122,20 +122,19 @@ def edit_post(id, title, content, link, post_status, terms_names_post_tag, terms
 def read_md(file_path):
     content = ""
     metadata = {}
-    path_title = get_md_path_title(file_path)
+    md_path_title = get_md_path_title(file_path)
     with open(file_path) as f:
         post = frontmatter.load(f)
         content = post.content
         metadata = post.metadata
         # print("==>>", post.content)
         # print("===>>", post.metadata)
-    return (content, metadata, path_title)
+    return (content, metadata, md_path_title)
 
 # 从md文件路径中获取文件名
 def get_md_path_title(path):
     pathArr = path.split('/')
     length = len(pathArr)
-    print(length)
     file = pathArr[length - 1]
     file = os.path.splitext(file)[0]
     folder = pathArr[length - 2]
@@ -156,7 +155,7 @@ def get_md_list(dir_path):
             for j in sub_dirs:
                 if os.path.splitext(j)[1] == ".md":   
                     md_list.append(os.path.join(sub_dir_path, j))
-    print(md_list)
+    # print(md_list)
     return md_list
 
 # 计算sha1
@@ -233,8 +232,9 @@ def insert_index_info_in_readme(title_id_dic):
     md_list.sort(reverse=True)
     # 读取md_list中的文件标题
     for md in md_list:
-        (content, metadata, path_title) = read_md(md)
-        id = title_id_dic[path_title]
+        (content, metadata, md_path_title) = read_md(md)
+        id = title_id_dic[md_path_title]
+        print(id)
         title = metadata.get("title", "")
         insert_info = insert_info + "[" + title +"](" + "https://"+domain_name + "/" + id +"html" + ")\n\n"
     # 替换 ---start--- 到 ---end--- 之间的内容
@@ -259,7 +259,7 @@ def insert_index_info_in_readme(title_id_dic):
 def main():
     # 1. 获取网站数据库中已有的文章列表
     post_title_id_list = get_posts()
-    print(post_title_id_list)
+    # print(post_title_id_list)
     title_id_dic = post_title_id_list_2_title_id_dic(post_title_id_list)
     print(title_id_dic)
     # 2. 获取md_sha1_dic
@@ -282,7 +282,7 @@ def main():
         # 如果sha1与md_sha1_dic中记录的不同，则开始同步
         else:
             # 读取md文件信息
-            (content, metadata, path_title) = read_md(md)
+            (content, metadata, md_path_title) = read_md(md)
             # 获取title
     #         title = metadata.get("title", "")
     #         terms_names_post_tag = metadata.get("tags",  domain_name)
