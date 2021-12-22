@@ -3,7 +3,6 @@ from wordpress_xmlrpc import Client, WordPressPost
 from wordpress_xmlrpc.methods.posts import GetPosts, NewPost, EditPost
 from urllib.parse import urlparse
 import frontmatter
-import datetime
 import time
 import os
 from hashlib import md5, sha1
@@ -123,7 +122,7 @@ def edit_post(id, title, content, link, post_status, terms_names_post_tag, terms
 def read_md(file_path):
     content = ""
     metadata = {}
-    print(file_path)
+    get_md_path_title(file_path)
     with open(file_path) as f:
         post = frontmatter.load(f)
         content = post.content
@@ -131,6 +130,12 @@ def read_md(file_path):
         print("==>>", post.content)
         print("===>>", post.metadata)
     return (content, metadata)
+
+# 从md文件路径中获取文件名
+def get_md_path_title(file_path):
+    pathArr = os.path.splitext(file_path)
+    print(pathArr)
+    return pathArr
 
 # 获取特定目录的markdown文件列表
 def get_md_list(dir_path):
