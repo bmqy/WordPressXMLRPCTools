@@ -132,14 +132,15 @@ def read_md(file_path):
     return (content, metadata)
 
 # 从md文件路径中获取文件名
-def get_md_path_title(file_path):
-    pathArr = file_path.split('/')
+def get_md_path_title(path):
+    pathArr = path.split('/')
     length = len(pathArr)
     print(length)
     file = pathArr[length - 1]
+    file = os.path.splitext(file)[0]
     folder = pathArr[length - 2]
     md_path_title = folder +'-'+ file
-    print(md_path_title)
+    # print(md_path_title)
     return md_path_title
 
 # 获取特定目录的markdown文件列表
