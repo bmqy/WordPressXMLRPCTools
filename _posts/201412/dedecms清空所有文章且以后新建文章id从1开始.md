@@ -1,6 +1,6 @@
 ---
 layout: post
-title: dedecms清空所有文章且以后新建文章ID从1开始
+title: dedecms清空所有文章且以后新建文章id从1开始
 date: 2014-12-17
 tags: ["dedecms","ID重新从1编号","清学小记","清空文章"]
 ---

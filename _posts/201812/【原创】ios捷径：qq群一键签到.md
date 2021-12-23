@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【原创】iOS捷径：QQ群一键签到
+title: 【原创】ios捷径：qq群一键签到
 date: 2018-12-19
 tags: ["ios捷径","QQ群一键签到","shortcuts","workflow","快捷指令","捷径","燕坊清作"]
 ---

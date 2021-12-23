@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【原创】iOS捷径：百度搜索风云榜2.1.0
+title: 【原创】ios捷径：百度搜索风云榜2.1.0
 date: 2018-11-27
 tags: ["ios捷径","shortcuts","workflow","快捷指令","捷径","燕坊清作","百度搜索风云榜"]
 ---

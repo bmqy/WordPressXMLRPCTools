@@ -1,6 +1,6 @@
 ---
 layout: post
-title: wordpress平台NexT主题
+title: wordpress平台next主题
 date: 2018-10-11
 tags: ["next主题","wordpress主题","wordpress版Next主题","燕坊清作"]
 ---

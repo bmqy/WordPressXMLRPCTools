@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【原创】iOS捷径：微博热搜榜2.0强势更新
+title: 【原创】ios捷径：微博热搜榜2.0强势更新
 date: 2018-11-02
 tags: ["ios捷径","shortcuts","workflow","微博热搜榜","快捷指令","捷径","燕坊清作"]
 ---

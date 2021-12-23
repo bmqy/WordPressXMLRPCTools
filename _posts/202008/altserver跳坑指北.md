@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AltServer跳坑指北
+title: altserver跳坑指北
 date: 2020-08-01
 tags: ["清学小记"]
 ---

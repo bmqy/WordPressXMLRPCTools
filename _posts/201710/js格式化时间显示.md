@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JS格式化时间显示
+title: js格式化时间显示
 date: 2017-10-24
 tags: ["format","js","格式化时间","燕衔春泥"]
 ---

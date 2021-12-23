@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【原创】IOS捷径：一键天气预报
+title: 【原创】ios捷径：一键天气预报
 date: 2018-11-07
 tags: ["ios捷径","shortcuts","workflow","一键天气预报","快捷指令","捷径","燕坊清作"]
 ---

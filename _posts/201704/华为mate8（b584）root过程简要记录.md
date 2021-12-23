@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 华为Mate8（B584）root过程简要记录
+title: 华为mate8（b584）root过程简要记录
 date: 2017-04-24
 tags: ["mate8","mate8 root","华为","燕衔春泥"]
 ---

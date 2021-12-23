@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【原创】iOS捷径：一键签到
+title: 【原创】ios捷径：一键签到
 date: 2018-12-31
 tags: ["ios捷径","shortcuts","workflow","一键签到","快捷指令","捷径","燕坊清作"]
 ---

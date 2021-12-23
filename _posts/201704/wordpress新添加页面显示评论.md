@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ​wordpress新添加页面显示评论
+title: wordpress新添加页面显示评论
 date: 2017-04-27
 tags: ["wordpress","新添加页面","显示评论","燕衔春泥"]
 ---

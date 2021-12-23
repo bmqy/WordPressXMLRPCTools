@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IE8使背景图片全屏显示的方法及问题
+title: ie8使背景图片全屏显示的方法及问题
 date: 2015-07-23
 tags: ["background-size","IE8背景全屏","sizingMethod","清学小记"]
 ---

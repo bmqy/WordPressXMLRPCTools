@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【原创】IOS捷径：自动壁纸
+title: 【原创】ios捷径：自动壁纸
 date: 2020-12-16
 tags: ["ios捷径","shortcuts","快捷指令","捷径","捷径自动化","燕坊清作","自动更换壁纸"]
 ---

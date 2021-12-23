@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【原创】iOS捷径：一键获取Urlscheme
+title: 【原创】ios捷径：一键获取Urlscheme
 date: 2019-06-12
 tags: ["ios捷径","shortcuts","workflow","快捷指令","捷径","燕坊清作"]
 ---

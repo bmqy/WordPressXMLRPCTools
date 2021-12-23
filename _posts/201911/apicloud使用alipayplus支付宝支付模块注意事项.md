@@ -1,6 +1,6 @@
 ---
 layout: post
-title: apicloud使用aliPayPlus支付宝支付模块注意事项
+title: apicloud使用alipayplus支付宝支付模块注意事项
 date: 2019-11-25
 tags: ["alipay","aliPayPlus模块","支付宝支付","清学小记"]
 ---

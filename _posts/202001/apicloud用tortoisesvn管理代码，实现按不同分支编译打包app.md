@@ -1,6 +1,6 @@
 ---
 layout: post
-title: apicloud用TortoiseSVN管理代码，实现按不同分支编译打包APP
+title: apicloud用tortoisesvn管理代码，实现按不同分支编译打包app
 date: 2020-01-06
 tags: ["apicloud","apicloud按分支编译打包","TortoiseSVN","打包APP","清学小记"]
 ---

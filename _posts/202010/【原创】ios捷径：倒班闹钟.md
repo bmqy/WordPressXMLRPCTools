@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【原创】IOS捷径：倒班闹钟
+title: 【原创】ios捷径：倒班闹钟
 date: 2020-10-11
 tags: ["ios捷径","shortcuts","快捷指令","捷径","捷径自动化","燕坊清作"]
 ---

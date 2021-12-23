@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 更换回WordPress。。。
+title: 更换回wordpress。。。
 date: 2018-07-10
 tags: ["hexo","wordpress","wordpress移动端","洗漱必吐"]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ECharts中tooltips自定义数据结构与样式
+title: echarts中tooltips自定义数据结构与样式
 date: 2017-06-21
 tags: ["ECharts","ECharts的tooltips","tooltips自定义","清学小记"]
 ---
