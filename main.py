@@ -237,7 +237,7 @@ def insert_index_info_in_readme(title_id_dic):
         if(id):
             print(id)
             title = metadata.get("title", "")
-            insert_info = insert_info + "[" + title +"](" + "https://"+domain_name + "/" + id +"html" + ")\n\n"
+            insert_info = insert_info + "[" + title +"](" + "https://"+domain_name + "/" + id +".html" + ")\n\n"
     # 替换 ---start--- 到 ---end--- 之间的内容
 
     insert_info = "---start---\n## 目录(" + time.strftime('%Y年%m月%d日') + "更新)" +"\n" + insert_info + "---end---"
