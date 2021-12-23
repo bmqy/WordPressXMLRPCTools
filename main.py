@@ -300,7 +300,7 @@ def main():
     #             id = link_id_dic["https://"+domain_name+"/p/"+link+"/"]
     #             edit_post(id, title, content, link, post_status, terms_names_post_tag, terms_names_category)
     # # 4. 重建md_sha1_dic
-    # rebuild_md_sha1_dic(os.path.join(os.getcwd(), ".md_sha1"), os.path.join(os.getcwd(), "_posts"))
+    rebuild_md_sha1_dic(os.path.join(os.getcwd(), ".md_sha1"), os.path.join(os.getcwd(), "_posts"))
     # # 5. 将链接信息写入insert_index_info_in_readme
     insert_index_info_in_readme(title_id_dic)
 

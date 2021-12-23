@@ -1,6 +1,6 @@
 ---
 layout: post
-title: dedecms重新安装后，文件中链接地址多出“include/”的解决方法
+title: dedecms重新安装后，文件中链接地址多出“include”路径的解决方法
 date: 2015-01-13
 tags: ["dedecms","dedecms重新安装","url多出include/","清学小记"]
 ---
