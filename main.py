@@ -62,7 +62,7 @@ def get_posts():
             "title": post.date.strftime("%Y%m") +'###'+ post.title,
         })
     print(post_title_id_list)
-    print(len(post_title_id_list))
+    # print(len(post_title_id_list))
     return post_title_id_list
 
 # 创建post对象
@@ -116,7 +116,7 @@ def edit_post(id, title, content, link, post_status, terms_names_post_tag, terms
         terms_names_post_tag, 
         terms_names_category)
     res = wp.call(EditPost(id, post_obj))
-    print(res)
+    # print(res)
 
 # 获取markdown文件中的内容
 def read_md(file_path):
@@ -139,7 +139,7 @@ def get_md_path_title(path):
     file = os.path.splitext(file)[0]
     folder = pathArr[length - 2]
     md_path_title = folder +'###'+ file
-    print(md_path_title)
+    # print(md_path_title)
     return md_path_title
 
 # 获取特定目录的markdown文件列表
@@ -235,9 +235,11 @@ def insert_index_info_in_readme(title_id_dic):
         (content, metadata, md_path_title) = read_md(md)
         id = title_id_dic.get(md_path_title, '')
         if(id):
-            print(id)
             title = metadata.get("title", "")
             insert_info = insert_info + "[" + title +"](" + "https://"+domain_name + "/" + id +".html" + ")\n\n"
+        else:
+            print('无效key：'+ md_path_title)
+
     # 替换 ---start--- 到 ---end--- 之间的内容
 
     insert_info = "---start---\n## 目录(" + time.strftime('%Y年%m月%d日') + "更新)" +"\n" + insert_info + "---end---"
@@ -245,8 +247,6 @@ def insert_index_info_in_readme(title_id_dic):
     # 获取README.md内容
     # with open (os.path.join(os.getcwd(), "README.md"), 'r', encoding='utf-8') as f:
     #     readme_md_content = f.read()
-
-    print(insert_info)
 
     # new_readme_md_content = re.sub(r'---start---(.|\n)*---end---', insert_info, readme_md_content)
 
