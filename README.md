@@ -1,306 +1,300 @@
 # 北门清燕博客Github仓库
 
 ---start---
-## 目录(2021年12月18日更新)
-[七牛上传视频获取视频封面和缩略图](https://www.bmqy.net/p/七牛上传视频获取视频封面和缩略图/)
+## 目录(2021年12月24日更新)
+[七牛上传视频获取视频封面和缩略图](https://www.bmqy.net/2444.html)
 
-[注销网站得慎重](https://www.bmqy.net/p/注销网站得慎重/)
+[注销网站得慎重](https://www.bmqy.net/2364.html)
 
-[【原创】ios捷径：捷径库](https://www.bmqy.net/p/ios捷径：捷径库/)
+[【原创】ios捷径：捷径库](https://www.bmqy.net/2342.html)
 
-[【原创】IOS捷径：自动壁纸](https://www.bmqy.net/p/【原创】ios捷径：自动壁纸/)
+[【原创】ios捷径：自动壁纸](https://www.bmqy.net/2312.html)
 
-[【原创】IOS捷径：法定工作日打卡提醒](https://www.bmqy.net/p/【原创】ios捷径：法定工作日打卡提醒/)
+[【原创】ios捷径：法定工作日打卡提醒](https://www.bmqy.net/2318.html)
 
-[【原创】IOS捷径：倒班闹钟](https://www.bmqy.net/p/【原创】ios捷径：倒班闹钟/)
+[【原创】ios捷径：倒班闹钟](https://www.bmqy.net/2287.html)
 
-[idea找回执行git pull操作后，被覆盖的本地未提交的代码](https://www.bmqy.net/p/idea找回执行git-pull操作后，被覆盖的本地未提交的代码/)
+[idea找回执行git pull操作后，被覆盖的本地未提交的代码](https://www.bmqy.net/2274.html)
 
-[AltServer跳坑指北](https://www.bmqy.net/p/altserver跳坑指北/)
+[altserver跳坑指北](https://www.bmqy.net/2254.html)
 
-[吐一吐三丰云免费服务器](https://www.bmqy.net/p/吐一吐三丰云免费服务器/)
+[吐一吐三丰云免费服务器](https://www.bmqy.net/2246.html)
 
-[Microsoft Store中的应用软件如何备份数据](https://www.bmqy.net/p/microsoft-store中的应用软件如何备份数据/)
+[Microsoft Store中的应用软件如何备份数据](https://www.bmqy.net/2237.html)
 
-[卖盘](https://www.bmqy.net/p/mai-pan/)
+[卖盘](https://www.bmqy.net/2194.html)
 
-[利用frp实现微软远程桌面管理内网电脑之不完全指北](https://www.bmqy.net/p/利用frp实现微软远程桌面管理内网电脑之不完全指/)
+[利用frp实现微软远程桌面管理内网电脑之不完全指北](https://www.bmqy.net/2174.html)
 
-[apicloud用TortoiseSVN管理代码，实现按不同分支编译打包APP](https://www.bmqy.net/p/apicloud用tortoisesvn管理代码，实现按不同分支编译打包app/)
+[apicloud用tortoisesvn管理代码，实现按不同分支编译打包app](https://www.bmqy.net/2144.html)
 
-[vscode插件提示：command 'extension.updateSettings' not found解决方法](https://www.bmqy.net/p/vscode插件提示：command-extension-updatesettings-not-found解决方法/)
+[vscode插件提示：command 'extension.updateSettings' not found解决方法](https://www.bmqy.net/2139.html)
 
-[apicloud使用aliPayPlus支付宝支付模块注意事项](https://www.bmqy.net/p/apicloud使用alipayplus支付宝支付模块注意事项/)
+[apicloud使用alipayplus支付宝支付模块注意事项](https://www.bmqy.net/2130.html)
 
-[【原创】越狱插件安装注意事项](https://www.bmqy.net/p/【原创】越狱插件安装注意事项/)
+[【原创】越狱插件安装注意事项](https://www.bmqy.net/2088.html)
 
-[api.closeFrameGroup的一些注意事项](https://www.bmqy.net/p/api-closeframegroup的一些注意事项/)
+[api.closeFrameGroup的一些注意事项](https://www.bmqy.net/2081.html)
 
-[【原创】iOS捷径：我的心愿单](https://www.bmqy.net/p/【原创】ios捷径：我的心愿单/)
+[【原创】ios捷径：我的心愿单](https://www.bmqy.net/1992.html)
 
-[【原创】iOS捷径：一键获取Urlscheme](https://www.bmqy.net/p/【原创】ios捷径：一键获取urlscheme/)
+[【原创】ios捷径：一键获取urlscheme](https://www.bmqy.net/1933.html)
 
-[【原创】iOS捷径：一键签到](https://www.bmqy.net/p/【原创】ios捷径：一键签到/)
+[【原创】ios捷径：一键签到](https://www.bmqy.net/1874.html)
 
-[【原创】iOS捷径：QQ群一键签到](https://www.bmqy.net/p/【原创】ios捷径：qq群一键签到/)
+[【原创】ios捷径：qq群一键签到](https://www.bmqy.net/1844.html)
 
-[【原创】iOS捷径：百度搜索风云榜2.1.0](https://www.bmqy.net/p/【原创】ios捷径：百度搜索风云榜2-0-0/)
+[【原创】ios捷径：一键天气预报](https://www.bmqy.net/1816.html)
 
-[【原创】iOS捷径：微博热搜榜2.0强势更新](https://www.bmqy.net/p/【原创】ios捷径：微博热搜榜2-0强势更新/)
+[自定义IntelliJ IDEA配置和插件的存放目录，以方便同步idea配置](https://www.bmqy.net/1773.html)
 
-[【原创】IOS捷径：一键天气预报](https://www.bmqy.net/p/【原创】ios捷径：一键天气预报/)
+[wordpress平台next主题](https://www.bmqy.net/1754.html)
 
-[自定义IntelliJ IDEA配置和插件的存放目录，以方便同步idea配置](https://www.bmqy.net/p/自定义intellij-idea配置和插件的存放目录，以方便同步idea配/)
+[ios捷径：bmqy捷径库](https://www.bmqy.net/1777.html)
 
-[wordpress平台NexT主题](https://www.bmqy.net/p/wordpress平台next主题/)
+[vscode本地调试asp](https://www.bmqy.net/1711.html)
 
-[ios捷径：bmqy捷径库](https://www.bmqy.net/p/ios捷径：bmqy捷径库/)
+[更换回wordpress。。。](https://www.bmqy.net/1703.html)
 
-[vscode本地调试asp](https://www.bmqy.net/p/vscode本地调试asp/)
+[ajaxFileUpload上传成功也执行error方法](https://www.bmqy.net/1707.html)
 
-[更换回WordPress。。。](https://www.bmqy.net/p/更换回wordpress。。。/)
+[一键收取熊猫守护者威力值](https://www.bmqy.net/1450.html)
 
-[ajaxFileUpload上传成功也执行error方法](https://www.bmqy.net/p/ajaxfileupload上出成功也执行error方法/)
+[vscode软件窗口标题栏显示文件完整路径](https://www.bmqy.net/1451.html)
 
-[一键收取熊猫守护者威力值](https://www.bmqy.net/p/一键收取熊猫守护者威力值/)
+[微信小程序“支付签名验证失败”问题的解决参考](https://www.bmqy.net/1452.html)
 
-[vscode软件窗口标题栏显示文件完整路径](https://www.bmqy.net/p/vscode软件窗口标题栏显示文件完整路径/)
+[“idea已连接上ftp但看不到文件”的解决办法](https://www.bmqy.net/1453.html)
 
-[微信小程序“支付签名验证失败”问题的解决参考](https://www.bmqy.net/p/微信小程序支付签名验证失败问题的解决参考/)
+[js格式化时间显示](https://www.bmqy.net/1454.html)
 
-[“idea已连接上ftp但看不到文件”的解决办法](https://www.bmqy.net/p/idea已连接上ftp但看不到文件的解决办法/)
+[js实现中文转换成拼音](https://www.bmqy.net/1455.html)
 
-[JS格式化时间显示](https://www.bmqy.net/p/js格式化时间显示/)
+[生命不息，折腾不止之“hexo”](https://www.bmqy.net/1457.html)
 
-[js实现中文转换成拼音](https://www.bmqy.net/p/js实现中文转换成拼音/)
+[h5移动端ios输入法软键盘导致fixed布局bug的解决方案](https://www.bmqy.net/1456.html)
 
-[生命不息，折腾不止之“hexo”](https://www.bmqy.net/p/生命不息，折腾不止之hexo/)
+[淘米辅助工具](https://www.bmqy.net/1459.html)
 
-[h5移动端ios输入法软键盘导致fixed布局bug的解决方案](https://www.bmqy.net/p/h5移动端ios输入法软键盘导致fixed布局bug的解决方案/)
+[echarts中tooltips自定义数据结构与样式](https://www.bmqy.net/1458.html)
 
-[淘米辅助工具](https://www.bmqy.net/p/淘米辅助工具/)
+[聚名网辅助工具](https://www.bmqy.net/1460.html)
 
-[ECharts中tooltips自定义数据结构与样式](https://www.bmqy.net/p/echarts中tooltips自定义数据结构与样式/)
+[仿站制作6](https://www.bmqy.net/1461.html)
 
-[聚名网辅助工具](https://www.bmqy.net/p/聚名网辅助工具/)
+[华为mate8（b584）root过程简要记录](https://www.bmqy.net/1463.html)
 
-[仿站制作6](https://www.bmqy.net/p/仿站制作6/)
+[wordpress新添加页面显示评论](https://www.bmqy.net/1462.html)
 
-[华为Mate8（B584）root过程简要记录](https://www.bmqy.net/p/华为mate8（b584）root过程简要记录/)
+[为子主题增加主题选项功能](https://www.bmqy.net/1465.html)
 
-[​wordpress新添加页面显示评论](https://www.bmqy.net/p/wordpress新添加页面显示评论/)
+[asp解析json的方法](https://www.bmqy.net/1464.html)
 
-[为子主题增加主题选项功能](https://www.bmqy.net/p/为子主题增加主题选项功能/)
+[自制chrome扩展：百度云分享链接一键登录](https://www.bmqy.net/1466.html)
 
-[ASP解析JSON的方法](https://www.bmqy.net/p/asp解析json的方法/)
+[清燕的云集小店](https://www.bmqy.net/1467.html)
 
-[自制chrome扩展：百度云分享链接一键登录](https://www.bmqy.net/p/自制chrome扩展：百度云分享链接一键登录/)
+[吐槽百度翻译之离线翻译包](https://www.bmqy.net/1469.html)
 
-[清燕的云集小店](https://www.bmqy.net/p/清燕的云集小店/)
+[Google play下载app状态栏进度显示异常的应对方法](https://www.bmqy.net/1468.html)
 
-[吐槽百度翻译之离线翻译包](https://www.bmqy.net/p/吐槽百度翻译之离线翻译包/)
+[现在只有人民才是真正的为人民](https://www.bmqy.net/1470.html)
 
-[Google play下载app状态栏进度显示异常的应对方法](https://www.bmqy.net/p/google-play下载app状态栏进度显示异常的应对方法/)
+[吐槽腾讯大王卡](https://www.bmqy.net/1471.html)
 
-[现在只有人民才是真正的为人民](https://www.bmqy.net/p/现在只有人民才是真正的为人民/)
+[wordpress添加twentysixteen子主题](https://www.bmqy.net/1472.html)
 
-[吐槽腾讯大王卡](https://www.bmqy.net/p/吐槽腾讯大王卡/)
+[idea配置less自动编译](https://www.bmqy.net/1473.html)
 
-[wordpress添加twentysixteen子主题](https://www.bmqy.net/p/wordpress添加twentysixteen子主题/)
+[使用chrome浏览器调试移动端web页面](https://www.bmqy.net/1474.html)
 
-[idea配置less自动编译](https://www.bmqy.net/p/idea配置less自动编译/)
+[sublime自动编译less2css插件，保存时提示系统找不到指定文件](https://www.bmqy.net/1476.html)
 
-[使用chrome浏览器调试移动端web页面](https://www.bmqy.net/p/使用chrome浏览器调试移动端web页面/)
+[idea编译less并使用autoprefixer](https://www.bmqy.net/1475.html)
 
-[sublime自动编译less2css插件，保存时提示系统找不到指定文件](https://www.bmqy.net/p/sublime自动编译less2css插件，保存时提示系统找不到指定文/)
+[吐一吐中信的升白金](https://www.bmqy.net/1477.html)
 
-[idea编译less并使用autoprefixer](https://www.bmqy.net/p/idea编译less插件less-css-compiler/)
+[Android手机下输入框获取焦点时, 输入法挡住输入框bug的解决方法](https://www.bmqy.net/1478.html)
 
-[吐一吐中信的升白金](https://www.bmqy.net/p/吐一吐中信的升白金/)
+[用子主题functions.php添加自定义功能后访问网站报错解决方法](https://www.bmqy.net/1479.html)
 
-[Android手机下输入框获取焦点时, 输入法挡住输入框bug的解决方法](https://www.bmqy.net/p/android手机下输入框获取焦点时-输入法挡住输入框bug的/)
+[wordpress头像不显示解决方法](https://www.bmqy.net/1480.html)
 
-[用子主题functions.php添加自定义功能后访问网站报错解决方法](https://www.bmqy.net/p/用子主题functions-php添加自定义功能后访问网站报错解决/)
+[仿站制作5](https://www.bmqy.net/1482.html)
 
-[wordpress头像不显示解决方法](https://www.bmqy.net/p/wordpress头像不显示解决方法/)
+[ueditor百度编辑器添加自定义模板并设为默认](https://www.bmqy.net/1481.html)
 
-[读老树画画随感](https://www.bmqy.net/p/读老树画画随感/)
+[VMware-workstation 12 安装 Mac OS X 10.10](https://www.bmqy.net/1484.html)
 
-[仿站制作5](https://www.bmqy.net/p/仿站制作5/)
+[再咏咳](https://www.bmqy.net/1486.html)
 
-[ueditor百度编辑器添加自定义模板并设为默认](https://www.bmqy.net/p/ueditor百度编辑器添加自定义模板并设为默认/)
+[做梦想](https://www.bmqy.net/1485.html)
 
-[VMware-workstation 12 安装 Mac OS X 10.10](https://www.bmqy.net/p/vmware-workstation-12-安装-mac-os-x-10-10/)
+[webstorm10配置less编译环境](https://www.bmqy.net/1487.html)
 
-[再咏咳](https://www.bmqy.net/p/再咏咳/)
+[数钱数到不愿醒，睡觉睡到腿抽筋儿](https://www.bmqy.net/1488.html)
 
-[做梦想](https://www.bmqy.net/p/做梦想/)
+[百度siteApp创建移动站后，提示“开发者模式出错”的解决方法](https://www.bmqy.net/1489.html)
 
-[webstorm10配置less编译环境](https://www.bmqy.net/p/webstorm10配置less编译环境/)
+[简单的jquery滑动门代码](https://www.bmqy.net/1490.html)
 
-[数钱数到不愿醒，睡觉睡到腿抽筋儿](https://www.bmqy.net/p/数钱数到不愿醒，睡觉睡到腿抽筋儿/)
+[瞎子和近视的区别](https://www.bmqy.net/1491.html)
 
-[百度siteApp创建移动站后，提示“开发者模式出错”的解决方法](https://www.bmqy.net/p/百度siteapp创建移动站后，提示开发者模式出错的/)
+[设为首页、添加收藏的javascript代码](https://www.bmqy.net/1492.html)
 
-[简单的jquery滑动门代码](https://www.bmqy.net/p/简单的jquery滑动门代码/)
+[解决wordpress添加主题时列表中缩略图不显示的问题](https://www.bmqy.net/1495.html)
 
-[瞎子和近视的区别](https://www.bmqy.net/p/瞎子和近视的区别/)
+[仿站制作4](https://www.bmqy.net/1497.html)
 
-[设为首页、添加收藏的javascript代码](https://www.bmqy.net/p/设为首页、添加收藏的javascript代码/)
+[仿站制作3](https://www.bmqy.net/1498.html)
 
-[解决wordpress添加主题时列表中缩略图不显示的问题](https://www.bmqy.net/p/解决wordpress添加主题时列表中缩略图不显示的问题/)
+[仿站制作2](https://www.bmqy.net/1499.html)
 
-[仿站制作4](https://www.bmqy.net/p/仿站制作4/)
+[仿站作品1](https://www.bmqy.net/1500.html)
 
-[仿站制作3](https://www.bmqy.net/p/仿站制作3/)
+[一个坏人好事做的再多，也抵不上一件坏事毁的彻底](https://www.bmqy.net/1493.html)
 
-[仿站制作2](https://www.bmqy.net/p/仿站制作2/)
+[wordpress在指定分类下的文章内容后显示自定义推广信息](https://www.bmqy.net/1496.html)
 
-[仿站作品1](https://www.bmqy.net/p/仿站作品1/)
+[ie8使背景图片全屏显示的方法及问题](https://www.bmqy.net/1494.html)
 
-[一个坏人好事做的再多，也抵不上一件坏事毁的彻底](https://www.bmqy.net/p/一个坏人好事做的再多，也抵不上一件坏事毁的彻/)
+[dedecms使用ajax调用指定栏目文章列表](https://www.bmqy.net/1501.html)
 
-[wordpress在指定分类下的文章内容后显示自定义推广信息](https://www.bmqy.net/p/wordpress在指定分类下的文章内容后显示自定义推广信息/)
+[生活就是做一点坏事，之后就再多做好事](https://www.bmqy.net/1502.html)
 
-[IE8使背景图片全屏显示的方法及问题](https://www.bmqy.net/p/ie8使背景图片全屏显示的方法及问题/)
+[百度谷歌一键切换（bmqy修复版）](https://www.bmqy.net/1503.html)
 
-[dedecms使用ajax调用指定栏目文章列表](https://www.bmqy.net/p/dedecms使用ajax调用指定栏目文章列表/)
+[小米2、2S合并分区](https://www.bmqy.net/1504.html)
 
-[生活就是做一点坏事，之后就再多做好事](https://www.bmqy.net/p/生活就是做一点坏事，之后就再多做好事/)
+[wordpress重新安装出现“wordpress database error，can&#39;t find file”错误](https://www.bmqy.net/1505.html)
 
-[百度谷歌一键切换（bmqy修复版）](https://www.bmqy.net/p/百度谷歌一键切换（bmqy修复版）/)
+[dedecms面包屑导航链接样式修改](https://www.bmqy.net/1506.html)
 
-[小米2/2S合并分区](https://www.bmqy.net/p/小米2-2s合并分区/)
+[图片放入到indesign中后变亮、颜色都变浅的解决办法](https://www.bmqy.net/1509.html)
 
-[wordpress重新安装出现“wordpress database error，can&#39;t find file”错误](https://www.bmqy.net/p/wordpress重新安装出现wordpress-database-error，cant-find-file错误/)
+[使用“Standalone Sitemap Generator”工具生成sitemap.xml和sitemap.html网站地图](https://www.bmqy.net/1507.html)
 
-[dedecms面包屑导航链接样式修改](https://www.bmqy.net/p/dedecms面包屑导航链接样式修改/)
+[为了解决小米手机内部存储空间不足问题，对手机进行重新分区](https://www.bmqy.net/1510.html)
 
-[图片放入到indesign中后变亮、颜色都变浅的解决办法](https://www.bmqy.net/p/图片放入到indesign中后变亮、颜色都变浅的解决办法/)
+[windows不能在本地计算机启动apache服务的解决方法](https://www.bmqy.net/1508.html)
 
-[使用“Standalone Sitemap Generator”工具生成sitemap.xml和sitemap.html网站地图](https://www.bmqy.net/p/使用standalone-sitemap-generator工具生成sitemap-xml和sitemap-html网站地图/)
+[诺不轻信人不负我，言不轻诺我不负人](https://www.bmqy.net/1513.html)
 
-[为了解决小米手机内部存储空间不足问题，对手机进行重新分区](https://www.bmqy.net/p/为了解决小米手机内部存储空间不足问题，对手机/)
+[京城2015年的第一场雪](https://www.bmqy.net/1512.html)
 
-[windows不能在本地计算机启动apache服务的解决方法](https://www.bmqy.net/p/windows不能在本地计算机启动apache服务的解决方法/)
+[wordpress使用twentyfifteen模板做子主题所遇问题的解决及记录](https://www.bmqy.net/1514.html)
 
-[诺不轻信人不负我，言不轻诺我不负人](https://www.bmqy.net/p/诺不轻信人不负我，言不轻诺我不负人/)
+[2015上天班第一天](https://www.bmqy.net/1511.html)
 
-[京城2015年的第一场雪](https://www.bmqy.net/p/京城2015年的第一场雪/)
+[如今这年头，宅在家里、不凑热闹也是一种自保地方式。](https://www.bmqy.net/1520.html)
 
-[wordpress使用twentyfifteen模板做子主题所遇问题的解决及记录](https://www.bmqy.net/p/wordpress使用twentyfifteen模板做子主题所遇问题的解决及记录/)
+[做梦也似大电影](https://www.bmqy.net/1515.html)
 
-[2015上天班第一天](https://www.bmqy.net/p/2015上天班第一天/)
+[dedecms重新安装后，文件中链接地址多出“include”路径的解决方法](https://www.bmqy.net/1516.html)
 
-[如今这年头，宅在家里、不凑热闹也是一种自保地方式。](https://www.bmqy.net/p/如今这年头，宅在家里、不凑热闹也是一种自保地/)
+[dedecms调用指定单一子栏目文章列表无内容的问题](https://www.bmqy.net/1519.html)
 
-[做梦也似大电影](https://www.bmqy.net/p/做梦也似大电影/)
+[dedecms增加新留言邮件提醒和后台留言管理模块](https://www.bmqy.net/1517.html)
 
-[dedecms重新安装后，文件中链接地址多出“include/”的解决方法](https://www.bmqy.net/p/dedecms重新安装后，文件中链接地址多出include-的解决/)
+[AspCms在子菜单栏目后面显示产品数量或新闻数量的解决办法](https://www.bmqy.net/1518.html)
 
-[dedecms调用指定单一子栏目文章列表无内容的问题](https://www.bmqy.net/p/dedecms调用指定单一子栏目文章列表无内容的问题/)
+[Active Server Pages 错误 &#39;ASP 0107&#39;解决办法](https://www.bmqy.net/1521.html)
 
-[dedecms增加新留言邮件提醒和后台留言管理模块](https://www.bmqy.net/p/dedecms增加新留言邮件提醒和后台留言管理模块/)
+[心无所倚](https://www.bmqy.net/1528.html)
 
-[AspCms在子菜单栏目后面显示产品数量或新闻数量的解决办法](https://www.bmqy.net/p/aspcms在子菜单栏目后面显示产品数量或新闻数量的解/)
+[万网空间服务器上传网站后出现HTTP500.19错误](https://www.bmqy.net/1523.html)
 
-[Active Server Pages 错误 &#39;ASP 0107&#39;解决办法](https://www.bmqy.net/p/active-server-pages-错误-asp-0107解决办法/)
+[ueditor编辑器创建超链接时添加class样式](https://www.bmqy.net/1524.html)
 
-[心无所倚](https://www.bmqy.net/p/心无所倚/)
+[js获取鼠标当前所在页面位置](https://www.bmqy.net/1522.html)
 
-[万网空间服务器上传网站后出现HTTP500.19错误](https://www.bmqy.net/p/万网空间服务器上传网站后出现http500-19错误/)
+[dedecms清空所有文章且以后新建文章id从1开始](https://www.bmqy.net/1525.html)
 
-[ueditor编辑器创建超链接时添加class样式](https://www.bmqy.net/p/ueditor编辑器创建超链接时添加class样式/)
+[dedecms更换html编辑器为ueditor](https://www.bmqy.net/1526.html)
 
-[js获取鼠标当前所在页面位置](https://www.bmqy.net/p/js获取鼠标当前所在页面位置/)
+[dedecms列表页调用文章内容](https://www.bmqy.net/1527.html)
 
-[dedecms清空所有文章且以后新建文章ID从1开始](https://www.bmqy.net/p/dedecms清空所有文章且以后新建文章id从1开始/)
+[“上盈其志，下务其功。悠悠黄河，吾其济乎！”](https://www.bmqy.net/1529.html)
 
-[dedecms更换html编辑器为ueditor](https://www.bmqy.net/p/dedecms更换html编辑器为ueditor/)
+[myeclipse新拷贝到电脑后错误弹窗，无法打开的解决方法](https://www.bmqy.net/1530.html)
 
-[dedecms列表页调用文章内容](https://www.bmqy.net/p/dedecms列表页调用文章内容/)
+[治世之能臣，乱世之废柴](https://www.bmqy.net/1534.html)
 
-[“上盈其志，下务其功。悠悠黄河，吾其济乎！”](https://www.bmqy.net/p/上盈其志，下务其功。悠悠黄河，吾其济乎！/)
+[来四张凑数](https://www.bmqy.net/1535.html)
 
-[myeclipse新拷贝到电脑后错误弹窗，无法打开的解决方法](https://www.bmqy.net/p/myeclipse新拷贝到电脑后错误弹窗，无法打开的解决方法/)
+[感觉不错的水天一色](https://www.bmqy.net/1536.html)
 
-[治世之能臣，乱世之废柴](https://www.bmqy.net/p/治世之能臣，乱世之废柴/)
+[到哪都有wifi的人](https://www.bmqy.net/1531.html)
 
-[来四张凑数](https://www.bmqy.net/p/来四张凑数/)
+[其实我不是强迫症](https://www.bmqy.net/1532.html)
 
-[感觉不错的水天一色](https://www.bmqy.net/p/感觉不错的水天一色/)
+[miui开启节省流量功能后数据流量不能使用的问题](https://www.bmqy.net/1533.html)
 
-[到哪都有wifi的人](https://www.bmqy.net/p/到哪都有wifi的人/)
+[这算一景儿三拍么](https://www.bmqy.net/1542.html)
 
-[其实我不是强迫症](https://www.bmqy.net/p/其实我不是强迫症/)
+[蓝蓝的天上白云飘](https://www.bmqy.net/1539.html)
 
-[MIUI开启节省流量功能后数据流量不能使用的问题](https://www.bmqy.net/p/miui开启节省流量功能后数据流量不能使用的问题/)
+[白云依旧](https://www.bmqy.net/1544.html)
 
-[这算一景儿三拍么](https://www.bmqy.net/p/这算一景儿三拍么/)
+[扬帆起航](https://www.bmqy.net/1541.html)
 
-[蓝蓝的天上白云飘](https://www.bmqy.net/p/蓝蓝的天上白云飘/)
+[差一点儿就拍中了闪电](https://www.bmqy.net/1540.html)
 
-[白云依旧](https://www.bmqy.net/p/白云依旧/)
+[吐一吐360的开机优化](https://www.bmqy.net/1543.html)
 
-[扬帆起航](https://www.bmqy.net/p/扬帆起航/)
+[八月第二波蓝天白云来袭](https://www.bmqy.net/1545.html)
 
-[差一点儿就拍中了闪电](https://www.bmqy.net/p/差一点儿就拍中了闪电/)
+[八月第一张](https://www.bmqy.net/1546.html)
 
-[吐一吐360的开机优化](https://www.bmqy.net/p/吐一吐360的开机优化/)
+[修身、立业、齐家、治国、平天下](https://www.bmqy.net/1537.html)
 
-[八月第二波蓝天白云来袭](https://www.bmqy.net/p/八月第二波蓝天白云来袭/)
+[人闯红灯不可怕，车闯红灯也不可怕](https://www.bmqy.net/1538.html)
 
-[八月第一张](https://www.bmqy.net/p/八月第一张/)
+[面对着巴西被7：1，我只想大笑三声“哇哈哈哈！让你们再赌球！”](https://www.bmqy.net/1556.html)
 
-[修身、立业、齐家、治国、平天下](https://www.bmqy.net/p/修身、立业、齐家、治国、平天下/)
+[雷鸣雨早](https://www.bmqy.net/1548.html)
 
-[人闯红灯不可怕，车闯红灯也不可怕](https://www.bmqy.net/p/人闯红灯不可怕，车闯红灯也不可怕/)
+[警不能以警，察不能以察](https://www.bmqy.net/1554.html)
 
-[面对着巴西被7:1，我只想大笑三声“哇哈哈哈！让你们再赌球！”](https://www.bmqy.net/p/面对着巴西被71，我只想大笑三声哇哈哈哈！让/)
+[燕美清照之天上的海](https://www.bmqy.net/1555.html)
 
-[雷鸣雨早](https://www.bmqy.net/p/雷鸣雨早/)
+[早晨的雨，起早的景儿](https://www.bmqy.net/1547.html)
 
-[警不能以警，察不能以察](https://www.bmqy.net/p/警不能以警，察不能以察/)
+[早早地一轮红日](https://www.bmqy.net/1551.html)
 
-[燕美清照之天上的海](https://www.bmqy.net/p/燕美清照之天上的海/)
+[新版百度首页设置“新窗口打开搜索页”](https://www.bmqy.net/1561.html)
 
-[早晨的雨，起早的景儿](https://www.bmqy.net/p/早晨的雨，起早的景儿/)
+[就止一张](https://www.bmqy.net/1550.html)
 
-[早早地一轮红日](https://www.bmqy.net/p/早早地一轮红日/)
+[安卓手机低电量时自动关机](https://www.bmqy.net/1559.html)
 
-[新版百度首页设置“新窗口打开搜索页”](https://www.bmqy.net/p/新版百度首页设置新窗口打开搜索页/)
+[又一波儿天空来袭](https://www.bmqy.net/1553.html)
 
-[就止一张](https://www.bmqy.net/p/就止一张/)
+[再平和自然地表现,也掩盖不了内心地焦急](https://www.bmqy.net/1557.html)
 
-[安卓手机低电量时自动关机](https://www.bmqy.net/p/安卓手机低电量时自动关机/)
+[仰望天空](https://www.bmqy.net/1549.html)
 
-[又一波儿天空来袭](https://www.bmqy.net/p/又一波儿天空来袭/)
+[为了有所为而有所拍](https://www.bmqy.net/1552.html)
 
-[再平和自然地表现,也掩盖不了内心地焦急](https://www.bmqy.net/p/再平和自然地表现也掩盖不了内心地焦急/)
+[“Brackets-宋体”扩展](https://www.bmqy.net/1560.html)
 
-[仰望天空](https://www.bmqy.net/p/仰望天空/)
+[php-5.5.14+Apache-2.4.9+xDebug安装配置](https://www.bmqy.net/1558.html)
 
-[为了有所为而有所拍](https://www.bmqy.net/p/为了有所为而有所拍/)
+[第一个浏览器扩展“取消关注主持人”发布成功](https://www.bmqy.net/1566.html)
 
-[php-5.5.14+Apache-2.4.9+xDebug安装配置](https://www.bmqy.net/p/php-5-5-14apache-2-4-9xdebug安装配置/)
+[流浪哥](https://www.bmqy.net/1564.html)
 
-[“Brackets-宋体”扩展](https://www.bmqy.net/p/brackets-宋体扩展/)
+[原地](https://www.bmqy.net/1568.html)
 
-[第一个浏览器扩展“取消关注主持人”发布成功](https://www.bmqy.net/p/第一个浏览器扩展取消关注主持人发布成功/)
+[北门清燕](https://www.bmqy.net/1565.html)
 
-[流浪哥](https://www.bmqy.net/p/流浪哥/)
+[什么是偶像，因为他像偶。](https://www.bmqy.net/1563.html)
 
-[原地](https://www.bmqy.net/p/原地/)
+[bmqy网站大事记](https://www.bmqy.net/1569.html)
 
-[北门清燕](https://www.bmqy.net/p/北门清燕/)
+[blue memories quietly yesterday](https://www.bmqy.net/1562.html)
 
-[什么是偶像，因为他像偶。](https://www.bmqy.net/p/什么是偶像，因为他像偶。/)
-
-[bmqy网站大事记](https://www.bmqy.net/p/bmqy网站大事记/)
-
-[blue memories quietly yesterday](https://www.bmqy.net/p/blue-memories-quietly-yesterday/)
-
-[2014.6.7拍摄](https://www.bmqy.net/p/2014-6-7拍摄/)
+[2014.6.7拍摄](https://www.bmqy.net/1567.html)
 
 ---end---
 
