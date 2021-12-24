@@ -245,15 +245,15 @@ def insert_index_info_in_readme(title_id_dic):
     insert_info = "---start---\n## 目录(" + time.strftime('%Y年%m月%d日') + "更新)" +"\n" + insert_info + "---end---"
 
     # 获取README.md内容
-    # with open (os.path.join(os.getcwd(), "README.md"), 'r', encoding='utf-8') as f:
-    #     readme_md_content = f.read()
+    with open (os.path.join(os.getcwd(), "README.md"), 'r', encoding='utf-8') as f:
+        readme_md_content = f.read()
 
-    # new_readme_md_content = re.sub(r'---start---(.|\n)*---end---', insert_info, readme_md_content)
+    new_readme_md_content = re.sub(r'---start---(.|\n)*---end---', insert_info, readme_md_content)
 
-    # with open (os.path.join(os.getcwd(), "README.md"), 'w', encoding='utf-8') as f:
-    #     f.write(new_readme_md_content)
+    with open (os.path.join(os.getcwd(), "README.md"), 'w', encoding='utf-8') as f:
+        f.write(new_readme_md_content)
 
-    # print("==new_readme_md_content==>>", new_readme_md_content)
+    print("==new_readme_md_content==>>", new_readme_md_content)
 
     return True
 
