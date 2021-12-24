@@ -302,7 +302,7 @@
 
 ---end---
 
-## 本项目特点
+## 本项目使用须知
 - 魔改自[https://github.com/zhaoolee/WordPressXMLRPCTools](https://github.com/zhaoolee/WordPressXMLRPCTools)
 - 支持id永久链接
 - 博文路径格式为：```/_post/201212/博文.md```
