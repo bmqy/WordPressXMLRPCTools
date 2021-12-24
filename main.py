@@ -285,23 +285,23 @@ def main():
             # 读取md文件信息
             (content, metadata, md_path_title) = read_md(md)
             # 获取title
-    #         title = metadata.get("title", "")
-    #         terms_names_post_tag = metadata.get("tags",  domain_name)
-    #         terms_names_category = metadata.get("categories", domain_name)
-    #         post_status = "publish"
-    #         link = sha1_key.split(".")[0]
-    #         ##content = markdown.markdown(content + href_info("https://"+domain_name+"/p/"+link+"/"), extensions=['tables', 'fenced_code'])
-    #         # 如果文章无id,则直接新建
-    #         if(("https://"+domain_name+"/p/"+link+"/" in link_id_dic.keys()) == False):
-    #             new_post(title, content, link, post_status, terms_names_post_tag, terms_names_category)
-    #         # 如果文章有id, 则更新文章
-    #         else:
-    #             # 获取id
-    #             id = link_id_dic["https://"+domain_name+"/p/"+link+"/"]
-    #             edit_post(id, title, content, link, post_status, terms_names_post_tag, terms_names_category)
-    # # 4. 重建md_sha1_dic
+            title = metadata.get("title", "")
+            terms_names_post_tag = metadata.get("tags",  domain_name)
+            terms_names_category = metadata.get("categories", domain_name)
+            post_status = "publish"
+            link = sha1_key.split(".")[0]
+            ##content = markdown.markdown(content + href_info("https://"+domain_name+"/p/"+link+"/"), extensions=['tables', 'fenced_code'])
+            # 如果文章无id,则直接新建
+            if(("https://"+domain_name+"/p/"+link+"/" in link_id_dic.keys()) == False):
+                new_post(title, content, link, post_status, terms_names_post_tag, terms_names_category)
+            # 如果文章有id, 则更新文章
+            else:
+                # 获取id
+                id = link_id_dic["https://"+domain_name+"/p/"+link+"/"]
+                edit_post(id, title, content, link, post_status, terms_names_post_tag, terms_names_category)
+    # 4. 重建md_sha1_dic
     rebuild_md_sha1_dic(os.path.join(os.getcwd(), ".md_sha1"), os.path.join(os.getcwd(), "_posts"))
-    # # 5. 将链接信息写入insert_index_info_in_readme
+    # 5. 将链接信息写入insert_index_info_in_readme
     insert_index_info_in_readme(title_id_dic)
 
 main()
