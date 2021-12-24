@@ -44,6 +44,8 @@
 
 [【原创】ios捷径：qq群一键签到](https://www.bmqy.net/1844.html)
 
+[【原创】ios捷径：百度搜索风云榜2.1.0](https://www.bmqy.net/1831.html)
+
 [【原创】ios捷径：微博热搜榜2.0强势更新](https://www.bmqy.net/1798.html)
 
 [【原创】ios捷径：一键天气预报](https://www.bmqy.net/1816.html)
