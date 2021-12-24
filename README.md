@@ -302,7 +302,14 @@
 
 ---end---
 
-
+## 本项目特点
+- 魔改自[https://github.com/zhaoolee/WordPressXMLRPCTools](https://github.com/zhaoolee/WordPressXMLRPCTools)
+- 支持id永久链接
+- 博文路径格式为：```/_post/201212/博文.md```
+- 文章标题请用小写英文，系统不区分大小写
+- 文章标题不要包含 ```/``` 特殊符号
+- 其它问题有待发现
+- 感谢[@zhaoolee](https://github.com/zhaoolee/)
 
 ## 用Github Actions写Markdown文章，自动更新到WordPress
 
