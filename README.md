@@ -2,9 +2,9 @@
 
 ---start---
 ## 目录(2021年12月30日更新)
-[七牛上传视频获取视频封面和缩略图](https://www.bmqy.net/2444.html)
+[快捷指令-图床](https://www.bmqy.net/2636.html)
 
-[【快捷指令】图床](https://www.bmqy.net/2632.html)
+[七牛上传视频获取视频封面和缩略图](https://www.bmqy.net/2444.html)
 
 [注销网站得慎重](https://www.bmqy.net/2364.html)
 
