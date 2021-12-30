@@ -89,7 +89,7 @@ def create_post_obj(title, content, link, post_status, terms_names_post_tag, ter
 def new_post(title, content, link, post_status, terms_names_post_tag, terms_names_category):
 
     post_obj = create_post_obj(
-        title = link, 
+        title = title, 
         content = content, 
         link = link, 
         post_status = post_status, 
@@ -104,6 +104,7 @@ def new_post(title, content, link, post_status, terms_names_post_tag, terms_name
         post_status, 
         terms_names_post_tag, 
         terms_names_category)
+    return id
 
 
 # 更新文章
@@ -293,7 +294,8 @@ def main():
             ##content = markdown.markdown(content + href_info("https://"+domain_name+"/p/"+link+"/"), extensions=['tables', 'fenced_code'])
             # 如果文章无id,则直接新建
             if((md_path_title in title_id_dic.keys()) == False):
-                new_post(title, content, link, post_status, terms_names_post_tag, terms_names_category)
+                id = new_post(title, content, link, post_status, terms_names_post_tag, terms_names_category)
+                title_id_dic.update({md_path_title, id})
             # 如果文章有id, 则更新文章
             else:
                 # 获取id
