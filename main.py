@@ -295,7 +295,7 @@ def main():
             # 如果文章无id,则直接新建
             if((md_path_title in title_id_dic.keys()) == False):
                 id = new_post(title, content, link, post_status, terms_names_post_tag, terms_names_category)
-                title_id_dic.update({md_path_title, id})
+                title_id_dic.update({md_path_title: id})
             # 如果文章有id, 则更新文章
             else:
                 # 获取id
