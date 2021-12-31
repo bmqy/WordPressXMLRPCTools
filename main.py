@@ -1,4 +1,3 @@
-# coding=utf-8
 from wordpress_xmlrpc import Client, WordPressPost
 from wordpress_xmlrpc.methods.posts import GetPosts, NewPost, EditPost
 from urllib.parse import urlparse
@@ -89,20 +88,20 @@ def create_post_obj(title, content, link, post_status, terms_names_post_tag, ter
 def new_post(title, content, link, post_status, terms_names_post_tag, terms_names_category):
 
     post_obj = create_post_obj(
-        title = title, 
-        content = content, 
-        link = link, 
-        post_status = post_status, 
-        terms_names_post_tag = terms_names_post_tag, 
+        title = title,
+        content = content,
+        link = link,
+        post_status = post_status,
+        terms_names_post_tag = terms_names_post_tag,
         terms_names_category = terms_names_category)
     # 先获取id
     id = wp.call(NewPost(post_obj))
     # 再通过EditPost更新信息
-    edit_post(id, title, 
-        content, 
-        link, 
-        post_status, 
-        terms_names_post_tag, 
+    edit_post(id, title,
+        content,
+        link,
+        post_status,
+        terms_names_post_tag,
         terms_names_category)
     return id
 
@@ -110,11 +109,11 @@ def new_post(title, content, link, post_status, terms_names_post_tag, terms_name
 # 更新文章
 def edit_post(id, title, content, link, post_status, terms_names_post_tag, terms_names_category):
     post_obj = create_post_obj(
-        title, 
-        content, 
-        link, 
-        post_status, 
-        terms_names_post_tag, 
+        title,
+        content,
+        link,
+        post_status,
+        terms_names_post_tag,
         terms_names_category)
     res = wp.call(EditPost(id, post_obj))
     # print(res)
@@ -148,13 +147,13 @@ def get_md_list(dir_path):
     md_list = []
     dirs = os.listdir(dir_path)
     for i in dirs:
-        if os.path.splitext(i)[1] == ".md":   
+        if os.path.splitext(i)[1] == ".md":
             md_list.append(os.path.join(dir_path, i))
         else:
             sub_dir_path = os.path.join(dir_path, i)
             sub_dirs = os.listdir(sub_dir_path)
             for j in sub_dirs:
-                if os.path.splitext(j)[1] == ".md":   
+                if os.path.splitext(j)[1] == ".md":
                     md_list.append(os.path.join(sub_dir_path, j))
     # print(md_list)
     return md_list
@@ -170,19 +169,19 @@ def get_sha1(filename):
 
 # 将字典写入文件
 def write_dic_info_to_file(dic_info, file):
-    dic_info_str = json.dumps(dic_info)   
-    file = open(file, 'w')  
-    file.write(dic_info_str)  
+    dic_info_str = json.dumps(dic_info)
+    file = open(file, 'w')
+    file.write(dic_info_str)
     file.close()
     return True
 
 # 将文件读取为字典格式
 def read_dic_from_file(file):
-    file_byte = open(file, 'r') 
+    file_byte = open(file, 'r')
     file_info = file_byte.read()
-    dic = json.loads(file_info)   
+    dic = json.loads(file_info)
     file_byte.close()
-    return dic 
+    return dic
 
 # 获取md_sha1_dic
 
@@ -268,7 +267,7 @@ def main():
     # 查看目录下是否存在md_sha1.txt,如果存在则读取内容；
     # 如果不存在则创建md_sha1.txt,内容初始化为{}，并读取其中的内容；
     # 将读取的字典内容变量名，设置为 md_sha1_dic
-    md_sha1_dic = get_md_sha1_dic(os.path.join(os.getcwd(), ".md_sha1")) 
+    md_sha1_dic = get_md_sha1_dic(os.path.join(os.getcwd(), ".md_sha1"))
 
     # 3. 开始同步
     # 读取_posts目录中的md文件列表
@@ -291,7 +290,8 @@ def main():
             terms_names_category = metadata.get("categories", domain_name)
             post_status = "publish"
             link = sha1_key.split(".")[0]
-            ##content = markdown.markdown(content + href_info("https://"+domain_name+"/p/"+link+"/"), extensions=['tables', 'fenced_code'])
+            # content = markdown.markdown(content + href_info("https://"+domain_name+"/p/"+link+"/"), extensions=['tables', 'fenced_code'])
+            content = markdown.markdown(content, extensions=['tables', 'fenced_code'])
             # 如果文章无id,则直接新建
             if((md_path_title in title_id_dic.keys()) == False):
                 id = new_post(title, content, link, post_status, terms_names_post_tag, terms_names_category)
