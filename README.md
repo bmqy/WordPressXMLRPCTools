@@ -1,7 +1,9 @@
 # 北门清燕博客Github仓库
 
 ---start---
-## 目录(2022年02月23日更新)
+## 目录(2022年03月10日更新)
+[node项目部署到ftp](https://www.bmqy.net/2640.html)
+
 [tomcat服务器上utf8编码的文件乱码解决方法](https://www.bmqy.net/2639.html)
 
 [快捷指令：图床](https://www.bmqy.net/2637.html)
