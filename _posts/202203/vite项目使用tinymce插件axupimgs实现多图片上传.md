@@ -22,7 +22,7 @@ categories:
 
 * 在```components/Editor.vue```里引入多图上传插件,并在```plugins```和```toolbar```里注册该插件
 ```
-import '/public/tinymce/axupimgs'  //多图上传
+import '/public/tinymce/axupimgs/plugin'  //多图上传
 ```
 
 * 刷新或重启项目即可
