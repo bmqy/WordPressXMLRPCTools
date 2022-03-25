@@ -1,30 +1,18 @@
 # 北门清燕博客Github仓库
 
 ---start---
-## 目录(2022年03月11日更新)
+## 目录(2022年03月25日更新)
 [vite项目使用tinymce插件axupimgs实现多图片上传](https://www.bmqy.net/2642.html)
 
 [node项目部署到ftp](https://www.bmqy.net/2640.html)
 
-[tomcat服务器上utf8编码的文件乱码解决方法](https://www.bmqy.net/2639.html)
-
-[快捷指令：图床](https://www.bmqy.net/2637.html)
-
-[七牛上传视频获取视频封面和缩略图](https://www.bmqy.net/2444.html)
+[apifox自动导入apidoc接口数据](https://www.bmqy.net/2645.html)
 
 [注销网站得慎重](https://www.bmqy.net/2364.html)
 
 [【原创】ios捷径：捷径库](https://www.bmqy.net/2342.html)
 
-[【原创】ios捷径：自动壁纸](https://www.bmqy.net/2312.html)
-
-[【原创】ios捷径：法定工作日打卡提醒](https://www.bmqy.net/2318.html)
-
-[【原创】ios捷径：倒班闹钟](https://www.bmqy.net/2287.html)
-
 [idea找回执行git pull操作后，被覆盖的本地未提交的代码](https://www.bmqy.net/2274.html)
-
-[altserver跳坑指北](https://www.bmqy.net/2254.html)
 
 [吐一吐三丰云免费服务器](https://www.bmqy.net/2246.html)
 
@@ -34,39 +22,17 @@
 
 [利用frp实现微软远程桌面管理内网电脑之不完全指北](https://www.bmqy.net/2174.html)
 
-[apicloud用tortoisesvn管理代码，实现按不同分支编译打包app](https://www.bmqy.net/2144.html)
-
 [vscode插件提示：command 'extension.updateSettings' not found解决方法](https://www.bmqy.net/2139.html)
-
-[apicloud使用alipayplus支付宝支付模块注意事项](https://www.bmqy.net/2130.html)
 
 [【原创】越狱插件安装注意事项](https://www.bmqy.net/2088.html)
 
 [api.closeFrameGroup的一些注意事项](https://www.bmqy.net/2081.html)
 
-[【原创】ios捷径：我的心愿单](https://www.bmqy.net/1992.html)
-
-[【原创】ios捷径：一键获取urlscheme](https://www.bmqy.net/1933.html)
-
-[【原创】ios捷径：一键签到](https://www.bmqy.net/1874.html)
-
-[【原创】ios捷径：qq群一键签到](https://www.bmqy.net/1844.html)
-
-[【原创】ios捷径：百度搜索风云榜2.1.0](https://www.bmqy.net/1831.html)
-
-[【原创】ios捷径：微博热搜榜2.0强势更新](https://www.bmqy.net/1798.html)
-
-[【原创】ios捷径：一键天气预报](https://www.bmqy.net/1816.html)
-
 [自定义IntelliJ IDEA配置和插件的存放目录，以方便同步idea配置](https://www.bmqy.net/1773.html)
-
-[wordpress平台next主题](https://www.bmqy.net/1754.html)
 
 [ios捷径：bmqy捷径库](https://www.bmqy.net/1777.html)
 
 [vscode本地调试asp](https://www.bmqy.net/1711.html)
-
-[更换回wordpress。。。](https://www.bmqy.net/1703.html)
 
 [ajaxFileUpload上传成功也执行error方法](https://www.bmqy.net/1707.html)
 
@@ -78,8 +44,6 @@
 
 [“idea已连接上ftp但看不到文件”的解决办法](https://www.bmqy.net/1453.html)
 
-[js格式化时间显示](https://www.bmqy.net/1454.html)
-
 [js实现中文转换成拼音](https://www.bmqy.net/1455.html)
 
 [生命不息，折腾不止之“hexo”](https://www.bmqy.net/1457.html)
@@ -88,19 +52,11 @@
 
 [淘米辅助工具](https://www.bmqy.net/1459.html)
 
-[echarts中tooltips自定义数据结构与样式](https://www.bmqy.net/1458.html)
-
 [聚名网辅助工具](https://www.bmqy.net/1460.html)
 
 [仿站制作6](https://www.bmqy.net/1461.html)
 
-[华为mate8（b584）root过程简要记录](https://www.bmqy.net/1463.html)
-
-[wordpress新添加页面显示评论](https://www.bmqy.net/1462.html)
-
 [为子主题增加主题选项功能](https://www.bmqy.net/1465.html)
-
-[asp解析json的方法](https://www.bmqy.net/1464.html)
 
 [自制chrome扩展：百度云分享链接一键登录](https://www.bmqy.net/1466.html)
 
@@ -131,8 +87,6 @@
 [用子主题functions.php添加自定义功能后访问网站报错解决方法](https://www.bmqy.net/1479.html)
 
 [wordpress头像不显示解决方法](https://www.bmqy.net/1480.html)
-
-[读老树画画随感](https://www.bmqy.net/1483.html)
 
 [仿站制作5](https://www.bmqy.net/1482.html)
 
@@ -170,15 +124,11 @@
 
 [wordpress在指定分类下的文章内容后显示自定义推广信息](https://www.bmqy.net/1496.html)
 
-[ie8使背景图片全屏显示的方法及问题](https://www.bmqy.net/1494.html)
-
 [dedecms使用ajax调用指定栏目文章列表](https://www.bmqy.net/1501.html)
 
 [生活就是做一点坏事，之后就再多做好事](https://www.bmqy.net/1502.html)
 
 [百度谷歌一键切换（bmqy修复版）](https://www.bmqy.net/1503.html)
-
-[小米2、2S合并分区](https://www.bmqy.net/1504.html)
 
 [wordpress重新安装出现“wordpress database error，can&#39;t find file”错误](https://www.bmqy.net/1505.html)
 
@@ -204,8 +154,6 @@
 
 [做梦也似大电影](https://www.bmqy.net/1515.html)
 
-[dedecms重新安装后，文件中链接地址多出“include”路径的解决方法](https://www.bmqy.net/1516.html)
-
 [dedecms调用指定单一子栏目文章列表无内容的问题](https://www.bmqy.net/1519.html)
 
 [dedecms增加新留言邮件提醒和后台留言管理模块](https://www.bmqy.net/1517.html)
@@ -221,8 +169,6 @@
 [ueditor编辑器创建超链接时添加class样式](https://www.bmqy.net/1524.html)
 
 [js获取鼠标当前所在页面位置](https://www.bmqy.net/1522.html)
-
-[dedecms清空所有文章且以后新建文章id从1开始](https://www.bmqy.net/1525.html)
 
 [dedecms更换html编辑器为ueditor](https://www.bmqy.net/1526.html)
 
@@ -241,8 +187,6 @@
 [到哪都有wifi的人](https://www.bmqy.net/1531.html)
 
 [其实我不是强迫症](https://www.bmqy.net/1532.html)
-
-[miui开启节省流量功能后数据流量不能使用的问题](https://www.bmqy.net/1533.html)
 
 [这算一景儿三拍么](https://www.bmqy.net/1542.html)
 
@@ -263,8 +207,6 @@
 [修身、立业、齐家、治国、平天下](https://www.bmqy.net/1537.html)
 
 [人闯红灯不可怕，车闯红灯也不可怕](https://www.bmqy.net/1538.html)
-
-[面对着巴西被7：1，我只想大笑三声“哇哈哈哈！让你们再赌球！”](https://www.bmqy.net/1556.html)
 
 [雷鸣雨早](https://www.bmqy.net/1548.html)
 
