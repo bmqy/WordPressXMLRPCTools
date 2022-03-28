@@ -1,10 +1,12 @@
 # 北门清燕博客Github仓库
 
 ---start---
-## 目录(2022年03月25日更新)
+## 目录(2022年03月28日更新)
 [vite项目使用tinymce插件axupimgs实现多图片上传](https://www.bmqy.net/2642.html)
 
 [node项目部署到ftp](https://www.bmqy.net/2640.html)
+
+[docker部署FreshRSS](https://www.bmqy.net/2648.html)
 
 [apifox自动导入apidoc接口数据](https://www.bmqy.net/2645.html)
 
