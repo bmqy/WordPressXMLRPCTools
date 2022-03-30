@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:  docker部署FreshRSS
+title:  docker部署freshrss
 tags:
 - docker
 - FreshRSS
