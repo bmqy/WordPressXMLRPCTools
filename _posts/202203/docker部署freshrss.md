@@ -4,6 +4,7 @@ title:  docker部署FreshRSS
 tags:
 - docker
 - FreshRSS
+- RssHub
 categories:
 - 清学小记
 ---
@@ -74,3 +75,9 @@ docker-compose up -d
 - ```API域名```：https://xxx.example.com/api/greader.php
 - ```用户名```：注册用户名
 - ```密码```：API 密码
+
+## 开启```API Access```并允许```RssHub Radar```中订阅
+- 打开左上角```订阅管理```
+- 选择```订阅工具```
+- 复制右侧显示的```API```链接地址
+- 粘贴到```RSSHub```一键订阅中```FreshRSS```地址栏中
