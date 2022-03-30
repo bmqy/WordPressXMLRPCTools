@@ -6,8 +6,6 @@
 
 [node项目部署到ftp](https://www.bmqy.net/2640.html)
 
-[docker部署FreshRSS](https://www.bmqy.net/2648.html)
-
 [apifox自动导入apidoc接口数据](https://www.bmqy.net/2645.html)
 
 [注销网站得慎重](https://www.bmqy.net/2364.html)
