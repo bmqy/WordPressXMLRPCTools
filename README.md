@@ -268,17 +268,20 @@
 
 ### 如何实现WordPress登录授权？
 
-Github 有一个secrets 功能，可以将用户名密码等关键信息保护起来，只有Github Actions可以读取到关键信息。
+`Github` 有一个`secrets` 功能，可以将用户名密码等关键信息保护起来，只有`Github Actions`可以读取到关键信息。
 
-本项目需要设置三个secret
+本项目需要设置三个`secret`
 
-- ```WordPress```登录```用户名```, 变量名为 ```USERNAME```
-- ```WordPress```登录```密码```，变量名为 ```PASSWORD```
-- ```WordPress```的```xmlrpc.php```，变量名为 ```XMLRPC_PHP```
+- `WordPress`登录`用户名`, 变量名为 `USERNAME`
+- `WordPress`登录`密码`，变量名为 `PASSWORD`
+- `WordPress`的`xmlrpc.php`，变量名为 `XMLRPC_PHP`
 
 ### 如何新建文章？
 
-在`_post` 目录下新建 后缀为 `.md` 的```markdown```文件即可
+- 使用[github.dev](https://github.dev/)(推荐)
+- 使用[vscode.dev](https://vscode.dev/)(推荐)
+- 使用[Code App](https://apps.apple.com/cn/app/id1512938504)
+- 在`_post` 目录下新建 后缀为 `.md` 的```markdown```文件即可
 
 
 ### 文章管理：如何为文章分类/加关键词标签？
