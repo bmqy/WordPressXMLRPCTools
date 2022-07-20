@@ -32,6 +32,17 @@ npm install apidoc@0.29.0 -g
 apidoc -i src -o apidoc/ -f .jsp
 ```
 
+- 监听文件变动，执行生产文档命令
+```
+# 全局安装 nodemon
+npm install -g nodemon
+
+# nodemon监听指定目录文件变动，并执行指令
+nodemon -w input/ -e js -x "apidoc -i input/ -f .js -o apidoc/"
+# or
+nodemon --watch input/ --ext js -exec "apidoc --input input/ --file-filters .js --output apidoc/"
+```
+
 ## 使用```Apifox```自动导入```apiDoc```数据
 - 创建好项目
 - 依次打开```项目设置```、```数据管理```、```导入数据(自动同步)```
